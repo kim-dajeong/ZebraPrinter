@@ -1,0 +1,101 @@
+\doxysection{Raw\+Printer\+Helper Class Reference}
+\hypertarget{class_raw_printer_helper}{}\label{class_raw_printer_helper}\index{RawPrinterHelper@{RawPrinterHelper}}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_raw_printer_helper_1_1_d_o_c_i_n_f_o_a}{DOCINFOA}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_raw_printer_helper_a67053ee03ebd45e5211dbb5f1de99754}{Open\+Printer}} (\mbox{[}Marshal\+As(Unmanaged\+Type.\+LPStr)\mbox{]} string sz\+Printer, out Int\+Ptr h\+Printer, Int\+Ptr pd)
+\item 
+static bool \mbox{\hyperlink{class_raw_printer_helper_a842a1c48b86ce2cf2940f9547d57ce99}{Close\+Printer}} (Int\+Ptr h\+Printer)
+\item 
+static bool \mbox{\hyperlink{class_raw_printer_helper_ad7ef5eaa3952603a6f3f35d3d11a4736}{Start\+Doc\+Printer}} (Int\+Ptr h\+Printer, Int32 level, \mbox{[}In, Marshal\+As(Unmanaged\+Type.\+LPStruct)\mbox{]} \mbox{\hyperlink{class_raw_printer_helper_1_1_d_o_c_i_n_f_o_a}{DOCINFOA}} di)
+\item 
+static bool \mbox{\hyperlink{class_raw_printer_helper_a9d2b015f38827ab3a6b39c47fe9e5e5c}{End\+Doc\+Printer}} (Int\+Ptr h\+Printer)
+\item 
+static bool \mbox{\hyperlink{class_raw_printer_helper_a4bf996f77191ae89e8158b64696626fc}{Start\+Page\+Printer}} (Int\+Ptr h\+Printer)
+\item 
+static bool \mbox{\hyperlink{class_raw_printer_helper_abc4313576f747907597a7b757cc6266c}{End\+Page\+Printer}} (Int\+Ptr h\+Printer)
+\item 
+static bool \mbox{\hyperlink{class_raw_printer_helper_abdce1f7dd94bea0263fab61fbc95ad5e}{Write\+Printer}} (Int\+Ptr h\+Printer, Int\+Ptr p\+Bytes, Int32 dw\+Count, out Int32 dw\+Written)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_raw_printer_helper_a98666cf8dae1c9569de55cd041d49c01}{Send\+Bytes\+To\+Printer}} (string sz\+Printer\+Name, Int\+Ptr p\+Bytes, Int32 dw\+Count)
+\item 
+static bool \mbox{\hyperlink{class_raw_printer_helper_af5290ebdc4e3f252b61c8562c1563478}{Send\+File\+To\+Printer}} (string sz\+Printer\+Name, string sz\+File\+Name)
+\item 
+static bool \mbox{\hyperlink{class_raw_printer_helper_a5bceaa1d0d98508deed3ea36a8186774}{Send\+String\+To\+Printer}} (string sz\+Printer\+Name, string sz\+String)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_raw_printer_helper_a842a1c48b86ce2cf2940f9547d57ce99}\index{RawPrinterHelper@{RawPrinterHelper}!ClosePrinter@{ClosePrinter}}
+\index{ClosePrinter@{ClosePrinter}!RawPrinterHelper@{RawPrinterHelper}}
+\doxysubsubsection{\texorpdfstring{ClosePrinter()}{ClosePrinter()}}
+{\footnotesize\ttfamily \label{class_raw_printer_helper_a842a1c48b86ce2cf2940f9547d57ce99} 
+static bool Raw\+Printer\+Helper.\+Close\+Printer (\begin{DoxyParamCaption}\item[{Int\+Ptr}]{h\+Printer}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_raw_printer_helper_a9d2b015f38827ab3a6b39c47fe9e5e5c}\index{RawPrinterHelper@{RawPrinterHelper}!EndDocPrinter@{EndDocPrinter}}
+\index{EndDocPrinter@{EndDocPrinter}!RawPrinterHelper@{RawPrinterHelper}}
+\doxysubsubsection{\texorpdfstring{EndDocPrinter()}{EndDocPrinter()}}
+{\footnotesize\ttfamily \label{class_raw_printer_helper_a9d2b015f38827ab3a6b39c47fe9e5e5c} 
+static bool Raw\+Printer\+Helper.\+End\+Doc\+Printer (\begin{DoxyParamCaption}\item[{Int\+Ptr}]{h\+Printer}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_raw_printer_helper_abc4313576f747907597a7b757cc6266c}\index{RawPrinterHelper@{RawPrinterHelper}!EndPagePrinter@{EndPagePrinter}}
+\index{EndPagePrinter@{EndPagePrinter}!RawPrinterHelper@{RawPrinterHelper}}
+\doxysubsubsection{\texorpdfstring{EndPagePrinter()}{EndPagePrinter()}}
+{\footnotesize\ttfamily \label{class_raw_printer_helper_abc4313576f747907597a7b757cc6266c} 
+static bool Raw\+Printer\+Helper.\+End\+Page\+Printer (\begin{DoxyParamCaption}\item[{Int\+Ptr}]{h\+Printer}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_raw_printer_helper_a67053ee03ebd45e5211dbb5f1de99754}\index{RawPrinterHelper@{RawPrinterHelper}!OpenPrinter@{OpenPrinter}}
+\index{OpenPrinter@{OpenPrinter}!RawPrinterHelper@{RawPrinterHelper}}
+\doxysubsubsection{\texorpdfstring{OpenPrinter()}{OpenPrinter()}}
+{\footnotesize\ttfamily \label{class_raw_printer_helper_a67053ee03ebd45e5211dbb5f1de99754} 
+static bool Raw\+Printer\+Helper.\+Open\+Printer (\begin{DoxyParamCaption}\item[{\mbox{[}\+Marshal\+As(\+Unmanaged\+Type.\+LPStr)\mbox{]} string}]{sz\+Printer}{, }\item[{out Int\+Ptr}]{h\+Printer}{, }\item[{Int\+Ptr}]{pd}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_raw_printer_helper_a98666cf8dae1c9569de55cd041d49c01}\index{RawPrinterHelper@{RawPrinterHelper}!SendBytesToPrinter@{SendBytesToPrinter}}
+\index{SendBytesToPrinter@{SendBytesToPrinter}!RawPrinterHelper@{RawPrinterHelper}}
+\doxysubsubsection{\texorpdfstring{SendBytesToPrinter()}{SendBytesToPrinter()}}
+{\footnotesize\ttfamily \label{class_raw_printer_helper_a98666cf8dae1c9569de55cd041d49c01} 
+static bool Raw\+Printer\+Helper.\+Send\+Bytes\+To\+Printer (\begin{DoxyParamCaption}\item[{string}]{sz\+Printer\+Name}{, }\item[{Int\+Ptr}]{p\+Bytes}{, }\item[{Int32}]{dw\+Count}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_raw_printer_helper_af5290ebdc4e3f252b61c8562c1563478}\index{RawPrinterHelper@{RawPrinterHelper}!SendFileToPrinter@{SendFileToPrinter}}
+\index{SendFileToPrinter@{SendFileToPrinter}!RawPrinterHelper@{RawPrinterHelper}}
+\doxysubsubsection{\texorpdfstring{SendFileToPrinter()}{SendFileToPrinter()}}
+{\footnotesize\ttfamily \label{class_raw_printer_helper_af5290ebdc4e3f252b61c8562c1563478} 
+static bool Raw\+Printer\+Helper.\+Send\+File\+To\+Printer (\begin{DoxyParamCaption}\item[{string}]{sz\+Printer\+Name}{, }\item[{string}]{sz\+File\+Name}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_raw_printer_helper_a5bceaa1d0d98508deed3ea36a8186774}\index{RawPrinterHelper@{RawPrinterHelper}!SendStringToPrinter@{SendStringToPrinter}}
+\index{SendStringToPrinter@{SendStringToPrinter}!RawPrinterHelper@{RawPrinterHelper}}
+\doxysubsubsection{\texorpdfstring{SendStringToPrinter()}{SendStringToPrinter()}}
+{\footnotesize\ttfamily \label{class_raw_printer_helper_a5bceaa1d0d98508deed3ea36a8186774} 
+static bool Raw\+Printer\+Helper.\+Send\+String\+To\+Printer (\begin{DoxyParamCaption}\item[{string}]{sz\+Printer\+Name}{, }\item[{string}]{sz\+String}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\Hypertarget{class_raw_printer_helper_ad7ef5eaa3952603a6f3f35d3d11a4736}\index{RawPrinterHelper@{RawPrinterHelper}!StartDocPrinter@{StartDocPrinter}}
+\index{StartDocPrinter@{StartDocPrinter}!RawPrinterHelper@{RawPrinterHelper}}
+\doxysubsubsection{\texorpdfstring{StartDocPrinter()}{StartDocPrinter()}}
+{\footnotesize\ttfamily \label{class_raw_printer_helper_ad7ef5eaa3952603a6f3f35d3d11a4736} 
+static bool Raw\+Printer\+Helper.\+Start\+Doc\+Printer (\begin{DoxyParamCaption}\item[{Int\+Ptr}]{h\+Printer}{, }\item[{Int32}]{level}{, }\item[{\mbox{[}\+In, Marshal\+As(\+Unmanaged\+Type.\+LPStruct)\mbox{]} \mbox{\hyperlink{class_raw_printer_helper_1_1_d_o_c_i_n_f_o_a}{DOCINFOA}}}]{di}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_raw_printer_helper_a4bf996f77191ae89e8158b64696626fc}\index{RawPrinterHelper@{RawPrinterHelper}!StartPagePrinter@{StartPagePrinter}}
+\index{StartPagePrinter@{StartPagePrinter}!RawPrinterHelper@{RawPrinterHelper}}
+\doxysubsubsection{\texorpdfstring{StartPagePrinter()}{StartPagePrinter()}}
+{\footnotesize\ttfamily \label{class_raw_printer_helper_a4bf996f77191ae89e8158b64696626fc} 
+static bool Raw\+Printer\+Helper.\+Start\+Page\+Printer (\begin{DoxyParamCaption}\item[{Int\+Ptr}]{h\+Printer}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_raw_printer_helper_abdce1f7dd94bea0263fab61fbc95ad5e}\index{RawPrinterHelper@{RawPrinterHelper}!WritePrinter@{WritePrinter}}
+\index{WritePrinter@{WritePrinter}!RawPrinterHelper@{RawPrinterHelper}}
+\doxysubsubsection{\texorpdfstring{WritePrinter()}{WritePrinter()}}
+{\footnotesize\ttfamily \label{class_raw_printer_helper_abdce1f7dd94bea0263fab61fbc95ad5e} 
+static bool Raw\+Printer\+Helper.\+Write\+Printer (\begin{DoxyParamCaption}\item[{Int\+Ptr}]{h\+Printer}{, }\item[{Int\+Ptr}]{p\+Bytes}{, }\item[{Int32}]{dw\+Count}{, }\item[{out Int32}]{dw\+Written}{}\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_program_8cs}{Program.\+cs}}\end{DoxyCompactItemize}

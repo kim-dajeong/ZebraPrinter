@@ -1,0 +1,29 @@
+C:\Users\HayleyKim\Documents\ZebraPrinter\obj\Debug\ZebraPrinter.csproj.AssemblyReference.cache
+C:\Users\HayleyKim\Documents\ZebraPrinter\obj\Debug\ZebraPrinter.csproj.CoreCompileInputs.cache
+C:\Users\HayleyKim\Documents\ZebraPrinter\bin\Debug\ZebraPrinter.exe.config
+C:\Users\HayleyKim\Documents\ZebraPrinter\bin\Debug\ZebraPrinter.exe
+C:\Users\HayleyKim\Documents\ZebraPrinter\bin\Debug\ZebraPrinter.pdb
+C:\Users\HayleyKim\Documents\ZebraPrinter\obj\Debug\ZebraPrinter.exe
+C:\Users\HayleyKim\Documents\ZebraPrinter\obj\Debug\ZebraPrinter.pdb
+C:\Users\Tantalus\Documents\ZebraPrinter\bin\Debug\ZebraPrinter.exe.config
+C:\Users\Tantalus\Documents\ZebraPrinter\bin\Debug\ZebraPrinter.exe
+C:\Users\Tantalus\Documents\ZebraPrinter\bin\Debug\ZebraPrinter.pdb
+C:\Users\Tantalus\Documents\ZebraPrinter\obj\Debug\ZebraPrinter.csproj.AssemblyReference.cache
+C:\Users\Tantalus\Documents\ZebraPrinter\obj\Debug\ZebraPrinter.csproj.CoreCompileInputs.cache
+C:\Users\Tantalus\Documents\ZebraPrinter\obj\Debug\ZebraPrinter.exe
+C:\Users\Tantalus\Documents\ZebraPrinter\obj\Debug\ZebraPrinter.pdb
+C:\Users\Tantalus\Documents\ZebraPrinter\bin\Debug\System.Drawing.Common.dll
+C:\Users\Tantalus\Documents\ZebraPrinter\bin\Debug\System.Drawing.Common.xml
+C:\Users\Tantalus\Documents\ZebraPrinter\obj\Debug\ZebraPri.E8B1EE6D.Up2Date
+C:\Users\Tantalus\Documents\ZebraPrinter\bin\Debug\System.Drawing.Common.pdb
+C:\Users\HayleyKim\OneDrive - Tantalus\Documents\ZebraPrinterSolutions\ZebraPrinter\bin\Debug\ZebraPrinter.exe.config
+C:\Users\HayleyKim\OneDrive - Tantalus\Documents\ZebraPrinterSolutions\ZebraPrinter\bin\Debug\ZebraPrinter.exe
+C:\Users\HayleyKim\OneDrive - Tantalus\Documents\ZebraPrinterSolutions\ZebraPrinter\bin\Debug\ZebraPrinter.pdb
+C:\Users\HayleyKim\OneDrive - Tantalus\Documents\ZebraPrinterSolutions\ZebraPrinter\bin\Debug\System.Drawing.Common.dll
+C:\Users\HayleyKim\OneDrive - Tantalus\Documents\ZebraPrinterSolutions\ZebraPrinter\bin\Debug\System.Drawing.Common.pdb
+C:\Users\HayleyKim\OneDrive - Tantalus\Documents\ZebraPrinterSolutions\ZebraPrinter\bin\Debug\System.Drawing.Common.xml
+C:\Users\HayleyKim\OneDrive - Tantalus\Documents\ZebraPrinterSolutions\ZebraPrinter\obj\Debug\ZebraPrinter.csproj.AssemblyReference.cache
+C:\Users\HayleyKim\OneDrive - Tantalus\Documents\ZebraPrinterSolutions\ZebraPrinter\obj\Debug\ZebraPrinter.csproj.CoreCompileInputs.cache
+C:\Users\HayleyKim\OneDrive - Tantalus\Documents\ZebraPrinterSolutions\ZebraPrinter\obj\Debug\ZebraPri.E8B1EE6D.Up2Date
+C:\Users\HayleyKim\OneDrive - Tantalus\Documents\ZebraPrinterSolutions\ZebraPrinter\obj\Debug\ZebraPrinter.exe
+C:\Users\HayleyKim\OneDrive - Tantalus\Documents\ZebraPrinterSolutions\ZebraPrinter\obj\Debug\ZebraPrinter.pdb
