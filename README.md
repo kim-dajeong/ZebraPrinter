@@ -1,4 +1,4 @@
-function for parsing zpl code and sending as bytes to printer.
+function for parsing zpl code and sending as bytes to printer on Windows.
 
 static void ZebraPrinter.Printer.usbprint	(	string	variableNames,
                                             string	variables,
