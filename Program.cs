@@ -1,5 +1,5 @@
 ﻿/*!
- * \author  Hayley Kim
+ * \author  Dajeong Kim
  * \date    20-12-2024
  * \file    Program.cs
  * \brief   Printer program
@@ -41,13 +41,7 @@ namespace ZebraPrinter
             string usbDriverName = args[1];
             string variableNames = args[2];
             string variables = args[3];           
-            
-            // Example values for variables
-            //string templateFilename = "C:\\Users\\Tantalus\\Downloads\\testlabel.prn";
-            //string usbDriverName = "ZDesigner ZT411-600dpi ZPL";
-            //string variableNames = "Product Key^,Barcode^,NID^,PoP^,MD^";
-            //string variables = "RT-4230^,0549D7C27E:ECCC618DACA46F7:E010000000000000^,00549D7C2^,ECCC618DACA46F7^,4724^";
-            
+              
             // Call to printer function
             Printer.usbprint(variableNames, variables, templateFilename, usbDriverName);
 
